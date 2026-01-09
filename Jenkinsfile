@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         MSSV = '23120282'
-        DOCKER_HUB_USERNAME = 'khnhg05' 
+        DOCKER_HUB_USERNAME = 'chung05' 
         DOCKER_IMAGE = "${DOCKER_HUB_USERNAME}/23120282"
         CONTAINER_NAME = "${MSSV}/devops"
         DOCKER_CREDENTIALS_ID = 'docker-hub-credentials'
